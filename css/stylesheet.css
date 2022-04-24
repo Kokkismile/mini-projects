@@ -2,9 +2,9 @@
     display: flex;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
-    border: solid black 4px;
+    border: solid rgb(49, 20, 20) 4px;
     border-radius: 10px;
-    background-color: rgb(109, 101, 101);
+    background-color: rgb(83, 70, 70);
     color: white;
     width: fit-content;
     padding: 1rem;
