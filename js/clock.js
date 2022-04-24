@@ -5,7 +5,7 @@
     let time = new Date();
 
       let hour = time.getHours();
-      //(Statement) If true👇   If false👇
+      //(Statement) If true👇 : If false👇
       hour = (hour < 10) ? "0" + hour : hour;
       let min = time.getMinutes();
       min = (min < 10) ? "0" + min : min;
