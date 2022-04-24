@@ -9,7 +9,7 @@
 
     let displayTime = `<div class="clock-flex-wrap">
                       <div><p>${hour}</p></div>
-                      <div><p>:</p></div>
+                      <div><p class="colon">:</p></div>
                       <div><p>${min}</p></div>
                       </div>`  
 
