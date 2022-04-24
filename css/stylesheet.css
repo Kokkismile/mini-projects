@@ -1,0 +1,11 @@
+.clock-flex-wrap {
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    border: solid black 4px;
+    border-radius: 10px;
+    background-color: rgb(109, 101, 101);
+    color: white;
+    width: fit-content;
+    padding: 1rem;
+}
