@@ -13,8 +13,8 @@ console.log(numberBtn);
 
 numberBtn.forEach(button => {
     button.addEventListener("click", (event) => {
-        console.log(event.target)
-        calcScreen.innerHTML = `<p>${numberBtn.innerHTML}</p>`
+        console.log(event.target.dataset)
+        calcScreen.innerHTML += `<p>${event.target.dataset.number}</p>`
     })
 });
 
