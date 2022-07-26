@@ -12,8 +12,8 @@ const testButton = document.querySelector(".test-button");
 console.log(numberBtn);
 
 numberBtn.forEach(button => {
-    button.addEventListener("click", () => {
-        console.log(numberBtn.dataset)
+    button.addEventListener("click", (event) => {
+        console.log(event.target)
         calcScreen.innerHTML = `<p>${numberBtn.innerHTML}</p>`
     })
 });
