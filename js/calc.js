@@ -6,8 +6,18 @@ const deleteBtn = document.querySelector("[data-delete]");
 const additionBtn = document.querySelector("[data-addition]");
 const substractBtn = document.querySelector("[data-substraction]");
 
+//TESTBUTTON
+const testButton = document.querySelector(".test-button");
+
+console.log(numberBtn);
+
 numberBtn.forEach(button => {
     button.addEventListener("click", () => {
-        calcScreen.innerHTML = `<p>${numberBtn.data.number}</p>`
+        console.log(numberBtn.dataset)
+        calcScreen.innerHTML = `<p>${numberBtn.innerHTML}</p>`
     })
-})
+});
+
+testButton.onclick = function() {
+    calcScreen.innerHTML = `<p>${testButton.innerHTML}</p>`
+}
