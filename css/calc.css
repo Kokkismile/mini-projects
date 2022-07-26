@@ -20,3 +20,7 @@
 .button-row {
     padding: 5px;
 }
+
+button {
+    font-size: 1.5em;
+}
