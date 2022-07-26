@@ -10,6 +10,7 @@ const deleteButton = document.querySelector(".test-button");
 
 console.log(numberBtn);
 
+//PRINTING NUMBERS
 numberBtn.forEach(button => {
     button.addEventListener("click", (event) => {
         console.log(event.target.dataset)
@@ -17,10 +18,13 @@ numberBtn.forEach(button => {
     })
 });
 
+//PRINTING ADDITION 
 additionBtn.addEventListener("click", (event) => {
-    console.log(event)
+    console.log(event.target.dataset.addition)
+    calcScreen.innerHTML += `<p>${event.target.dataset.addition}</p>`
 })
 
+//CLEAR NUMBERS
 deleteButton.onclick = function() {
     calcScreen.innerHTML = `<p>0</p>`
 }
