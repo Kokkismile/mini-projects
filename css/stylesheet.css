@@ -8,7 +8,7 @@
 }
 
 .back-button {
-    background-color: green;
+    background-color: rgb(36, 36, 37);
     border-radius: 5px;
     padding: 10px 20px;
     border: solid 2px white;
@@ -41,6 +41,7 @@ ul {
 
 li {
     background-color: rgb(17, 17, 17);
+    border: solid 1px white;
     border-radius: 5px;
     padding: 5px 10px;
     margin: 5px;
