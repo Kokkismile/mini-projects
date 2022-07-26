@@ -1,21 +1,4 @@
-.clock-flex-wrap {
-    display: flex;
-    justify-content: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
-    border: solid rgb(24, 24, 24) 8px;
-    border-radius: 20px;
-    background-color: rgb(45, 53, 56);
-    color: white;
-    width: 150px;
-    height: auto;
-    padding: 1rem;
-    margin: 15px;
-}
-
-.colon {
-    padding: 0 5px 0 5px;
-}
+@import url(/css/clock.css);
 
 .background {
     background-color: white;
