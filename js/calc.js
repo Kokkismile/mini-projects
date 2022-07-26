@@ -1,5 +1,13 @@
 const calcScreen = document.querySelector(".calc-screen");
-calcScreen.innerHTML = `<p>TEST</p>`
+calcScreen.innerHTML = `<p>0</p>`;
 
-const numberButtons = document.querySelectorAll("[data-number]");
-console.log(numberButtons)
+const numberBtn = document.querySelectorAll("[data-number]");
+const deleteBtn = document.querySelector("[data-delete]");
+const additionBtn = document.querySelector("[data-addition]");
+const substractBtn = document.querySelector("[data-substraction]");
+
+numberBtn.forEach(button => {
+    button.addEventListener("click", () => {
+        calcScreen.innerHTML = `<p>${numberBtn.data.number}</p>`
+    })
+})
