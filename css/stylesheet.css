@@ -42,6 +42,8 @@ nav {
 }
 
 ul {
+    display: flex;
+    flex-direction: column;
     list-style: none;
     padding: 10px 5px;
 }
@@ -50,5 +52,6 @@ li {
     background-color: rgb(17, 17, 17);
     border-radius: 5px;
     padding: 5px 10px;
+    margin: 5px;
     font-size: 20px;
 }
