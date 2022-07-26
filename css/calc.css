@@ -6,12 +6,12 @@
 
 .calc-screen {
     display: flex;
+    justify-content: right;
     background-color: black;
     border: solid 2px rgb(43, 43, 43);
     min-height: 50px;
     margin: 5px;
     padding: 5px;
-    text-align: right;
     border-radius: 5px;
     color: green;
     font-size: 25px;

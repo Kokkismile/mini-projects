@@ -19,5 +19,5 @@ numberBtn.forEach(button => {
 });
 
 testButton.onclick = function() {
-    calcScreen.innerHTML = `<p>${testButton.innerHTML}</p>`
+    calcScreen.innerHTML = `<p>0</p>`
 }
