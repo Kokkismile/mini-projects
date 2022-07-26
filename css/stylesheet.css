@@ -17,6 +17,13 @@
     padding: 0 5px 0 5px;
 }
 
+.background {
+    background-color: white;
+    width: fit-content;
+    padding: 5px;
+    margin: 15px 0;
+}
+
 .back-button {
     background-color: green;
     border-radius: 5px;
@@ -31,6 +38,7 @@ a {
 
 body {
     background-color: rgb(238, 238, 238);
+    margin: 15px;
 }
 
 nav {
